@@ -1,7 +1,7 @@
 import socket
 
 def main():
-	server_ip = "0.0.0.0"
+	server_ip = input("Введите адрес сервера: ")
 	server_port = 1303
 	client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
