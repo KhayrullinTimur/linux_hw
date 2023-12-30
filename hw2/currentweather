@@ -2,7 +2,6 @@
 import cgi
 import requests
 
-
 form = cgi.FieldStorage()
 
 url = "https://api.openweathermap.org/data/2.5/weather"
